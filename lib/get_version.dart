@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:package_info/package_info.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 class GetVersion {
   static const MethodChannel _channel = MethodChannel('get_version');

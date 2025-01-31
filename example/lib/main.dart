@@ -6,7 +6,7 @@ import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 
 // The existing imports
-// !! Keep your existing impots here !!
+// !! Keep your existing imports here !!
 
 /// main is entry point of Flutter application
 void main() {
