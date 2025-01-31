@@ -7,7 +7,6 @@ import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
-import com.appleeducate.getversion.BuildConfig;
 
 class GetVersionPlugin(): FlutterPlugin, MethodCallHandler {
     private lateinit var channel : MethodChannel
