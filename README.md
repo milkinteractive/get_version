@@ -17,6 +17,8 @@ Get the Version Name, Version Code and App ID on iOS and Android.
 
 ### Flutter
 
+Go to `pubspec.yaml` and add in your dependencies.
+
 ```
   get_version:
     git:
