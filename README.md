@@ -12,7 +12,18 @@ Online Demo: https://fluttercommunity.github.io/get_version/
 ## Description
 Get the Version Name, Version Code and App ID on iOS and Android.
 
+
 ## Setup
+
+### Flutter
+
+```
+  get_version:
+    git:
+      url: https://github.com/milkinteractive/get_version.git
+      ref: 1.0.1
+```
+
 ### Android
 
 Go to build.gradle and update:
@@ -91,7 +102,7 @@ try {
   projectName = 'Failed to get app name.';
 }
 ```
-    
+
 ## Example
 
 ```dart
@@ -152,7 +163,7 @@ class _MyAppState extends State<MyApp> {
     } on PlatformException {
       projectAppID = 'Failed to get app ID.';
     }
-    
+
     String projectName;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
@@ -175,7 +186,7 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
-  
+
 
   @override
   Widget build(BuildContext context) {
